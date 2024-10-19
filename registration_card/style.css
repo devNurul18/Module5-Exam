@@ -1,0 +1,123 @@
+body{
+    background-image: linear-gradient(to right, #1A2980 , #26D0CE);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-Heading{
+    text-align: center;
+}
+
+.MainBox{
+    background-color: white;
+    width: 550px;
+    height: auto;
+    overflow: hidden;
+    padding: 36px 35px;
+    box-shadow: 10px 10px 5px rgba(44, 44, 44, .5);
+    border-radius: 20px;
+    border-top: 5px solid #1a2d82;
+
+
+}
+.MainBox h2{
+   color: #1a2d82;
+   font-family: "Montserrat", sans-serif;
+   text-align: center;
+   font-size: 40px;
+   line-height: 0px;
+   padding-bottom: 20px;
+
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-box{
+    width: 47%;
+    margin-bottom: 22px;
+}
+.input-box input {
+    width: 100%;
+    height: 55px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 10px;
+    border: 1px solid #1a2d8263;
+    box-shadow: 5px 3px 5px rgb(44 44 44 / 28%);
+    background: #fbf7f7;
+}
+
+.input-box input:focus-visible{
+    outline: 0px;
+    color: #000;
+}
+
+.input-box label{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.gender-title{
+    width: 100%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.gender-category{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a2d82;
+    padding-top: 10px;
+}
+
+.gender-category input{
+    cursor: pointer;
+}
+
+.submit-btns{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit-btns .cancel-btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(to right, #DA22FF , #9733EE);
+    padding: 17px 33px;
+    border: 0;
+    border-radius: 35px 0px 0px 35px;
+    cursor: pointer;
+    box-shadow: 5px 3px 5px rgb(44 44 44 / 28%);
+
+}
+.submit-btns .sub-btn{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(to right, #cc2b5e , #753a88);
+    padding: 17px 33px;
+    border: 0;
+    margin-left: -2px;
+    border-radius: 0px 30px 30px 0px;
+    cursor: pointer;
+    box-shadow: 5px 3px 5px rgb(44 44 44 / 28%);
+
+}
+
+
+
+
